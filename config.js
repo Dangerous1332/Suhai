@@ -18,11 +18,11 @@ global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Nairobi";
 global.github=process.env.GITHUB|| "https://github.com/WillisKE/Suhail";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaZ8Q0Y1XquZ673Uvs0m";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaZ8Q0Y1XquZ673Uvs0m" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/d7b133573a5a3622775e6.jpg" ; // SET LOGO FOR IMAGE 
+global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/BNE0V8XpEZK0q4IgJ9jklM";
+global.website=process.env.GURL || "https://chat.whatsapp.com/BNE0V8XpEZK0q4IgJ9jklM" ; 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/9a936ae2abc95e4bac05c.jpg" ; // SET LOGO FOR IMAGE 
 global.BUTTONS = process.env.BUTTON_MODE || "1";
-global.caption = process.env.CAPTION || global.caption || "ɢɛռɛʀǟȶɛɖ ᏰᎩ ᏇᎥᏝᏝᎥᏕ" 
+global.caption = process.env.CAPTION || global.caption || "*𝘎𝘦𝘯𝘌𝘳𝘢𝘛𝘦𝘋 ᏰᎩ 𝘚𝘩𝘈𝘯𝘪𝘪*" 
 
 
 global.devs = "254786273945" // Developer Contact
@@ -52,7 +52,7 @@ global.waPresence= process.env.WAPRESENCE ||  "unavailable" ; // 'unavailable' |
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "true"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923455116994";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
@@ -72,19 +72,19 @@ module.exports = {
 
   menu: process.env.MENU || "3", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
   style : process.env.STYLE || "3",  // put '1' & "2" here to check bot styles
-  thumbimage: process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/d7b133573a5a3622775e6.jpg",
+  thumbimage: process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/9a936ae2abc95e4bac05c.jpg",
   buttons : process.env.BUTTON_MODE || "1",
   menustyle : process.env.MENU_STYLE || "G2",
 
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.8",
-  caption : global.caption || "ɢɛռɛʀǟȶɛɖ ᏰᎩ ᏇᎥᏝᏝᎥᏕ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : global.caption || "👾𝘎𝘦𝘯𝘌𝘳𝘢𝘛𝘦𝘋 ᏰᎩ 𝘚𝘩𝘈𝘯𝘪𝘪" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sʜᴀɴɪ-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sʜᴀɴɪ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "〃Willis",
-  packname: process.env.PACK_NAME || "〃",
-  botname : process.env.BOT_NAME  || "ᴡɪʟʟɪꜱ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "≛ Willis",
+  author : process.env.PACK_AUTHER|| ".",
+  packname: process.env.PACK_NAME || "'ꜛ-🫂❤‍🩹⏤͟͟͞͞᚜ု᪳ₒ͞₃₄₅ᷤ₅ⷩ₁ⷶ₁ᷡ₆ͥ₉͞₉₄ှ᪳᚛͟͞⏤💍-↑",
+  botname : process.env.BOT_NAME  || "*🅢ʜᴀɴɪɪ-🅜ᴅ🤖*",
+  ownername:process.env.OWNER_NAME|| "🐼sʜᴀɴɪ ʀᴀᴊᴘᴜᴛ🐼",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -98,7 +98,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
 
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
   LANG: ( process.env.THEME ||  "ADAM"  ).toUpperCase(),
 
 
